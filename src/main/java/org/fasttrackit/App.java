@@ -1,9 +1,11 @@
 package org.fasttrackit;
 
+import java.util.Date;
+
 public class App {
     public static void main(String[] args) {
         Animal animal = new Animal();
-        animal.name = "Puffy";
+        animal.name= "Puffy";
         animal.age = 10;
         animal.healthLevel = 9;
         animal.hungerLevel = 7;
@@ -27,6 +29,9 @@ public class App {
         Veterinarian veterinarian = new Veterinarian();
         veterinarian.name = "Mihai";
         veterinarian.specialization = "surgery";
+
+
+
 
 
     }
