@@ -9,5 +9,4 @@ public class Food {
     private Date expirationDate;
     boolean availability;
 
-
 }

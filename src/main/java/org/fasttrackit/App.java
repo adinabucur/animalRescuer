@@ -30,6 +30,18 @@ public class App {
         veterinarian.name = "Mihai";
         veterinarian.specialization = "surgery";
 
+        Cats cats = new Cats();
+        cats.name = "Piky";
+        cats.healthLevel = 8;
+        cats.hungerLevel = 5;
+        cats.moodLevel = 9;
+        cats.favoriteFood = "Abc";
+        cats.colorOfSkin = "white";
+        cats.recreationalActivity = "play";
+
+        Dogs dogs = new Dogs();
+        dogs.name = "Cdef";
+        dogs.favoriteToy="Teddy Bear";
 
 
 
