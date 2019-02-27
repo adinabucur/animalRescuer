@@ -5,6 +5,5 @@ public class Game {
     private Food food;
     private Animal animal;
 
-    public Game() {
-    }
+
 }
