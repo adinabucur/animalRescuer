@@ -26,11 +26,12 @@ public class App {
         food.availability = true;
 
         adopter.feed(animal, food);
-        adopter.doRelaxingActivity(animal);
 
-
-        ReacreationalActivity recreationalActivity = new ReacreationalActivity();
+        RecreationalActivity recreationalActivity = new RecreationalActivity();
         recreationalActivity.name = "play";
+        recreationalActivity.durationActivity = 10;
+
+        adopter.doRelaxingActivity(animal, recreationalActivity);
 
         Veterinarian veterinarian = new Veterinarian();
         veterinarian.name = "Mihai";

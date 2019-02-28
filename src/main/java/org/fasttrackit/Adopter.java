@@ -12,8 +12,8 @@ public class Adopter {
 
     }
 
-    public void doRelaxingActivity (Animal animal){
-        System.out.println(name + " " + animal.recreationalActivity + " with " + animal.name );
+    public void doRelaxingActivity (Animal animal, RecreationalActivity recreationalActivity){
+        System.out.println(name + " " + recreationalActivity.name + " with " + animal.name  );
 
         /*System.out.println(String.format("%s %s with %s", name, animal.recreationalActivity, animal.name));*/
     }
