@@ -6,17 +6,17 @@ public class App {
     public static void main(String[] args) {
         Animal animal = new Animal("Puffy");
         //  animal.name = "Puffy";
-        animal.age = 10;
-        animal.healthLevel = 9;
-        animal.hungerLevel = 7;
-        animal.moodLevel = 6;
-        animal.favoriteFood = "Whiskas";
-        animal.recreationalActivity = "play";
+        animal.setAge(10);
+        animal.setHealthLevel(9);
+        animal.setHungerLevel(7);
+        animal.setMoodLevel(6);
+        animal.setFavoriteFood("Whiskas");
+        animal.setRecreationalActivity("play");
 
 
         Adopter adopter = new Adopter("Ioana");
         //adopter.name = "Ioana";
-        adopter.availableAmountOfMoney = 100;
+        adopter.setAvailableAmountOfMoney(100);
 
 
 
@@ -37,16 +37,16 @@ public class App {
 
         Veterinarian veterinarian = new Veterinarian("Mihai");
         //veterinarian.name = "Mihai";
-        veterinarian.specialization = "surgery";
+        veterinarian.setSpecialization("surgery");
 
         Cats cats = new Cats("Piky", "white");
         // cats.name = "Piky";
-        cats.healthLevel = 8;
-        cats.hungerLevel = 5;
-        cats.moodLevel = 9;
-        cats.favoriteFood = "Abc";
+        cats.setHealthLevel(8);
+        cats.setHungerLevel(5);
+        cats.setMoodLevel(9);
+        cats.setFavoriteFood("Abc");
         // cats.colorOfSkin = "white";
-        cats.recreationalActivity = "play";
+        cats.setRecreationalActivity("play");
 
         Dogs dogs = new Dogs("Cdef", "Teddy Bear");
         //dogs.name = "Cdef";
