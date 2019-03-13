@@ -10,5 +10,7 @@ public class Animal {
     String favoriteFood;
     String recreationalActivity;
 
-
+    public Animal(String name) {
+        this.name = name;
+    }
 }

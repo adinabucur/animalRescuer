@@ -9,4 +9,9 @@ public class Food {
     private Date expirationDate;
     boolean availability;
 
+    public Food(String name) {
+        this.name = name;
+    }
+
+
 }

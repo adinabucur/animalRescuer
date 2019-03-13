@@ -4,6 +4,10 @@ public class Adopter {
     String name;
     int availableAmountOfMoney;
 
+    public Adopter(String name) {
+        this.name = name;
+    }
+
     public void feed(Animal animal, Food food) {
 
         System.out.println(name +" just gave some " + food.name + " food to " + animal.name);
