@@ -22,16 +22,16 @@ public class App {
 
         Food food = new Food("Friskies");
         //food.name = "Friskies";
-        food.price = 15.50;
-        food.quantity = 10;
+        food.setPrice(15.5);
+        food.setQuantity(10);
         food.availability = true;
 
 
         adopter.feed(animal, food);
 
         RecreationalActivity recreationalActivity = new RecreationalActivity();
-        recreationalActivity.name = "play";
-        recreationalActivity.durationActivity = 10;
+        recreationalActivity.setName("play");
+        recreationalActivity.setDurationActivity(10);
 
         adopter.doRelaxingActivity(animal, recreationalActivity);
 
