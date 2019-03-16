@@ -10,6 +10,11 @@ public class Animal {
     private String favoriteFood;
     private String recreationalActivity;
 
+    public String mood (String moodLevel){
+        System.out.println(getName() + " is " + moodLevel);
+        return moodLevel;
+    }
+
     public String getName() {
         return name;
     }

@@ -4,6 +4,11 @@ public class Cats extends Animal {
 
    private String colorOfSkin;
 
+    @Override
+    public String mood(String moodLevel) {
+        return super.mood(moodLevel);
+    }
+
     public String getColorOfSkin() {
         return colorOfSkin;
     }

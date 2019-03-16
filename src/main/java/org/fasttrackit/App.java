@@ -35,6 +35,8 @@ public class App {
 
         adopter.doRelaxingActivity(animal, recreationalActivity);
 
+        animal.mood("happy");
+
         Veterinarian veterinarian = new Veterinarian("Mihai");
         //veterinarian.name = "Mihai";
         veterinarian.setSpecialization("surgery");
@@ -47,10 +49,12 @@ public class App {
         cats.setFavoriteFood("Abc");
         // cats.colorOfSkin = "white";
         cats.setRecreationalActivity("play");
+        cats.mood("purring");
 
-        Dogs dogs = new Dogs("Cdef", "Teddy Bear");
+        Dogs dogs = new Dogs("Bobita", "Teddy Bear");
         //dogs.name = "Cdef";
         //dogs.favoriteToy = "Teddy Bear";
+        dogs.mood("wagging its tail");
 
 
     }

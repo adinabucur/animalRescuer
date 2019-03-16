@@ -4,6 +4,11 @@ public class Dogs extends Animal {
 
    private String favoriteToy;
 
+    @Override
+    public String mood(String moodLevel) {
+        return super.mood(moodLevel);
+    }
+
     public String getFavoriteToy() {
         return favoriteToy;
     }
