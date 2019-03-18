@@ -13,7 +13,6 @@ public class App {
         animal.setFavoriteFood("Whiskas");
         animal.setRecreationalActivity("play");
 
-
         Adopter adopter = new Adopter("Ioana");
         //adopter.name = "Ioana";
         adopter.setAvailableAmountOfMoney(100);
@@ -35,7 +34,6 @@ public class App {
 
         adopter.doRelaxingActivity(animal, recreationalActivity);
 
-        animal.mood("happy");
 
         Veterinarian veterinarian = new Veterinarian("Mihai");
         //veterinarian.name = "Mihai";
@@ -49,13 +47,14 @@ public class App {
         cats.setFavoriteFood("Abc");
         // cats.colorOfSkin = "white";
         cats.setRecreationalActivity("play");
-        cats.mood("purring");
+
 
         Dogs dogs = new Dogs("Bobita", "Teddy Bear");
-        //dogs.name = "Cdef";
+        //dogs.name = "Bobita";
         //dogs.favoriteToy = "Teddy Bear";
-        dogs.mood("wagging its tail");
 
-
+        animal.mood();
+        cats.mood();
+        dogs.mood();
     }
 }

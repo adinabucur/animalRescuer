@@ -10,9 +10,8 @@ public class Animal {
     private String favoriteFood;
     private String recreationalActivity;
 
-    public String mood (String moodLevel){
-        System.out.println(getName() + " is " + moodLevel);
-        return moodLevel;
+    public void mood ( ){
+        System.out.println("The animal is happy " );
     }
 
     public String getName() {
