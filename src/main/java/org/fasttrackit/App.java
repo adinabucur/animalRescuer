@@ -12,6 +12,9 @@ public class App {
         animal.setMoodLevel(6);
         animal.setFavoriteFood("Whiskas");
         animal.setRecreationalActivity("play");
+        animal.mood();
+
+
 
         Adopter adopter = new Adopter("Ioana");
         //adopter.name = "Ioana";
@@ -47,16 +50,19 @@ public class App {
         cats.setFavoriteFood("Abc");
         // cats.colorOfSkin = "white";
         cats.setRecreationalActivity("play");
+        cats.mood();
 
+        Animal secondCat = new Cats("Kitty","brown");
+        secondCat.mood();
 
         Dogs dogs = new Dogs("Bobita", "Teddy Bear");
         //dogs.name = "Bobita";
         //dogs.favoriteToy = "Teddy Bear";
-
-        animal.mood();
-        cats.mood();
         dogs.mood();
 
+
+        Animal secondDog = new Dogs("Rex"," Tennis ball ");
+        secondDog.mood();
 
     }
 }

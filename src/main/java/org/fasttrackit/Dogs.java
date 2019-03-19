@@ -4,6 +4,7 @@ public class Dogs extends Animal {
 
    private String favoriteToy;
 
+
     @Override
     public void mood() {
         System.out.println(getName() + " is wagging its tail ");
