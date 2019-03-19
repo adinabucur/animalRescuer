@@ -11,8 +11,10 @@ public class Animal {
     private String recreationalActivity;
 
     public void mood ( ){
-        System.out.println("The animal is happy " );
+        System.out.println(getName() + " is happy " );
     }
+
+
 
     public String getName() {
         return name;

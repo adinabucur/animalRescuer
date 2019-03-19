@@ -2,8 +2,12 @@ package org.fasttrackit;
 
 public class Adopter {
 
+    public static int hungerLevel;
+
     private String name;
     private int availableAmountOfMoney;
+
+
 
     public String getName() {
         return name;
@@ -27,11 +31,13 @@ public class Adopter {
 
     public void feed(Animal animal, Food food) {
 
-        System.out.println(name +" just gave some " + food.getClass() + " food to " + animal.getName());
+        System.out.println(name +" just gave some " + food.getName() + " food to " + animal.getName());
+
 
         /* System.out.println(String.format("%s just gave some %s food to %s", name, food.name, animal.name)); */
 
     }
+
 
     public void doRelaxingActivity (Animal animal, RecreationalActivity recreationalActivity){
         System.out.println(name + " " + recreationalActivity.getName() + " with " + animal.getName()  );
