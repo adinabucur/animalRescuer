@@ -2,12 +2,18 @@ package org.fasttrackit;
 
 public class Adopter {
 
-    public static int hungerLevel;
+    private int hungerLevel;
 
     private String name;
     private int availableAmountOfMoney;
 
+    public int getHungerLevel() {
+        return hungerLevel;
+    }
 
+    public void setHungerLevel(int hungerLevel) {
+        this.hungerLevel = hungerLevel;
+    }
 
     public String getName() {
         return name;
@@ -33,7 +39,8 @@ public class Adopter {
 
         System.out.println(name +" just gave some " + food.getName() + " food to " + animal.getName());
 
-
+        hungerLevel --;
+        System.out.println("The hunger level is " +  hungerLevel);
         /* System.out.println(String.format("%s just gave some %s food to %s", name, food.name, animal.name)); */
 
     }

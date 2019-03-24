@@ -19,8 +19,7 @@ public class App {
         Adopter adopter = new Adopter("Ioana");
         //adopter.name = "Ioana";
         adopter.setAvailableAmountOfMoney(100);
-
-
+        adopter.setHungerLevel(10);
 
         Food food = new Food("Friskies");
         //food.name = "Friskies";
@@ -63,6 +62,7 @@ public class App {
 
         Animal secondDog = new Dogs("Rex"," Tennis ball ");
         secondDog.mood();
+
 
     }
 }

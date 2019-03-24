@@ -12,6 +12,8 @@ public class Animal {
 
     public void mood ( ){
         System.out.println(getName() + " is happy " );
+        moodLevel++;
+        System.out.println("The mood level is " + moodLevel);
     }
 
 
